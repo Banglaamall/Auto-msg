@@ -1,0 +1,10 @@
+BOT_TOKEN = "8211501288:AAGP3VnpZbVu41jVRbu9TxyE8Dox7UjcT98"
+
+OWNER_ID = 1252548226
+
+DEFAULT_INTERVAL = 900
+
+DEFAULT_POST = """Desi huge collection
+
+Join now ----> @HUNGRY4X
+"""
