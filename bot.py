@@ -28,19 +28,25 @@ from scheduler import send_scheduled_post
 
 
 
+from telegram.ext import ApplicationBuilder
+
+
 def main():
-
-    setup_database()
-
-
+    # আপনার টোকেন
     app = (
-        ApplicationBuilder()
-        .token(BOT_TOKEN)
-        .build()
+        ApplicationBuilder().token("8211501288:AAGP3VnpZbVu41jVRbu9TxyE8Dox7UjcT98").build()
     )
 
+    # আপনার হ্যান্ডলার যুক্ত করুন...
 
-    # /start
+    # রান পোলিং
+    app.run_polling()
+
+
+if __name__ == "__main__":
+    main()
+
+asasas# /start
 
     app.add_handler(
         CommandHandler(
